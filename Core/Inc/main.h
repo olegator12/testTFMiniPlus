@@ -57,15 +57,11 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define TX1_Pin GPIO_PIN_9
-#define TX1_GPIO_Port GPIOA
-#define RX1_Pin GPIO_PIN_10
-#define RX1_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 #define USART_BUF_SIZE 64
 
 void USART1_RX_Proc(uint8_t *buf, uint32_t len);
-void USART2_RX_Proc(uint8_t *buf, uint32_t len);
+
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

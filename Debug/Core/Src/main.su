@@ -1,5 +1,4 @@
-../Core/Src/main.c:93:5:main	8	static
-../Core/Src/main.c:151:6:SystemClock_Config	72	static
-../Core/Src/main.c:188:6:USART1_RX_Proc	24	static
-../Core/Src/main.c:227:6:USART2_RX_Proc	16	static
-../Core/Src/main.c:237:6:Error_Handler	4	static,ignoring_inline_asm
+../Core/Src/main.c:75:5:main	8	static
+../Core/Src/main.c:125:6:SystemClock_Config	72	static
+../Core/Src/main.c:163:6:USART1_RX_Proc	24	static
+../Core/Src/main.c:193:6:Error_Handler	4	static,ignoring_inline_asm
